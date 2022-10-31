@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import TopHeader from '../../components/TopHeader'
+import Navbar from '../../components/Navbar'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 const UpdateProducts = () => {
@@ -54,7 +54,7 @@ const UpdateProducts = () => {
 
     return (
         <div>
-            <TopHeader />
+            <Navbar />
 
             <div className="container mx-auto max-w-xl ">
                 <div className="my-10">

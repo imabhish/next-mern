@@ -1,4 +1,4 @@
-import TopHeader from '../components/TopHeader'
+import Navbar from '../components/Navbar'
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -49,7 +49,7 @@ const Form = () => {
     }
     return (
         <div>
-            <TopHeader />
+            <Navbar />
             <div className="my-10 container mx-auto max-w-xl">
 
                 <Link href="/" >

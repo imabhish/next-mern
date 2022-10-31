@@ -10,7 +10,7 @@ const Table = () => {
         setProducts(res.products)
         setIsLoading(false)
     }
- 
+
     const deleteProducts = async (id) => {
         console.log(id);
         const res = await (await fetch('http://localhost:3000/api/products/' + id, {
@@ -69,7 +69,7 @@ const Table = () => {
 
                     </tbody>
                 </table>}
-                
+
             </div>
         </div >
 

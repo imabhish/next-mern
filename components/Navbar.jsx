@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TopHeader = () => {
+const Navbar = () => {
     return (
         <div className="bg-pink-500">
             <div className='container p-5 mx-auto'>
@@ -12,4 +12,4 @@ const TopHeader = () => {
     )
 }
 
-export default TopHeader
+export default Navbar
