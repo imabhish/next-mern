@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
-const Table = () => {
+const Layout = () => {
     const [products, setProducts] = useState([])
     const [isLoading, setIsLoading] = useState(false);
     const getProducts = async () => {
@@ -75,4 +75,4 @@ const Table = () => {
 
     )
 }
-export default Table
+export default Layout
