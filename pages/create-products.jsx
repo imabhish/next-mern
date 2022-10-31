@@ -62,7 +62,7 @@ const Form = () => {
                             <input type="text" value={products.title} onChange={onChangeHandle} name="title" id="" className="w-full rounded bg-transparent border outline-pink-500 px-3 py-2 text-black text-md mt-2" />
                         </div>
                         <div className="my-2">
-                            <lable className="text-md text-semiblod">Enter the Content / Description</lable>
+                            <lable className="text-md text-semiblod">Enter the Description</lable>
                             textarea
                             <textarea col="4" row="6" type="text" name="content" value={products.content} onChange={onChangeHandle} id="" className="w-full rounded bg-transparent border outline-pink-500 px-3 py-2 text-black text-md mt-2"></textarea>
                         </div>
